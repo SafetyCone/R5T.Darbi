@@ -38,6 +38,9 @@ namespace R5T.Darbi
                 writer.WriteLine();
                 writer.WriteLine($"Machine name: {machineName}");
             }
+
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadLine();
         }
     }
 }
