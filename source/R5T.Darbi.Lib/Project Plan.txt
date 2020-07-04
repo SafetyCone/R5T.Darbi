@@ -1,0 +1,4 @@
+R5T.Darbi.Lib - A simple library project for the console-app R5T.Darbi
+
+Goals
+
