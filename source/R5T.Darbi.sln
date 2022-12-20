@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
-MinimumVisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Darbi", "R5T.Darbi\R5T.Darbi.csproj", "{EDE4179B-0879-4392-9F15-DE78451D2E5C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Darbi.Lib", "R5T.Darbi.Lib\R5T.Darbi.Lib.csproj", "{A28F0A32-71D0-46CB-B66C-B6EEF22F4FDA}"
@@ -18,6 +18,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.D0027.Base", "..\..\R5T.D0027\source\R5T.D0027.Base\R5T.D0027.Base.csproj", "{18FE5B81-C2F8-4EE0-A5F9-FF18E55BE4E9}"
 EndProject
 Global
+	GlobalSection(NestedProjects) = preSolution
+		{459185FF-B67B-4CE5-8803-EF8472F365BB} = {983679AB-7B67-4911-95E3-805ECBD26A7C}
+		{D6817FF5-181B-4F77-B24E-5FB4C69D3234} = {983679AB-7B67-4911-95E3-805ECBD26A7C}
+		{21E0CA52-9943-4A75-A672-F50154C0F5C6} = {983679AB-7B67-4911-95E3-805ECBD26A7C}
+		{18FE5B81-C2F8-4EE0-A5F9-FF18E55BE4E9} = {983679AB-7B67-4911-95E3-805ECBD26A7C}
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -102,12 +108,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{459185FF-B67B-4CE5-8803-EF8472F365BB} = {983679AB-7B67-4911-95E3-805ECBD26A7C}
-		{D6817FF5-181B-4F77-B24E-5FB4C69D3234} = {983679AB-7B67-4911-95E3-805ECBD26A7C}
-		{21E0CA52-9943-4A75-A672-F50154C0F5C6} = {983679AB-7B67-4911-95E3-805ECBD26A7C}
-		{18FE5B81-C2F8-4EE0-A5F9-FF18E55BE4E9} = {983679AB-7B67-4911-95E3-805ECBD26A7C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EFC14017-6859-44CB-849E-055687E8C173}
